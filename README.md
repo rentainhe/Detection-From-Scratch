@@ -5,10 +5,14 @@ learning object detection from scratch
 - learning notes sharing
 
 ## Contents
-#### 1. classic paper reading
+### 1. basic theory
+- [Hard Negative Mining]()
+- [Bounding Box Regression]()
 
 
+
+### 2. classic paper reading
 |two-stage|paper|conference|year|notes|
 |:---:|:---:|:---:|:---:|:---:
-| __R-CNN__ |[Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/abs/1311.2524)|...|2014|[notes](https://github.com/rentainhe/pytorch-models/blob/master/notes/efficient-networks/Octave%20Conv.md)
+| __R-CNN__ |[Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/abs/1311.2524)|...|2014|[notes](https://github.com/rentainhe/mini-detection/blob/master/notes/model/RCNN.md)
 

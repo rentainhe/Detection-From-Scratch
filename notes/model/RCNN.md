@@ -75,3 +75,5 @@ RCNN则使用了预先提取的可能区域，之后在这些区域上提取特�
 
 ## Reference
 - [【目标检测】RCNN算法详解](https://blog.csdn.net/shenxiaolu1984/article/details/51066975)
+- [阿里云知乎解读](https://zhuanlan.zhihu.com/p/23006190)
+- [R-CNN论文详解](https://blog.csdn.net/WoPawn/article/details/52133338)
