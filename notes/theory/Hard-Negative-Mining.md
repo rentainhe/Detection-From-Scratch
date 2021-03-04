@@ -8,4 +8,4 @@
 
 ## Reference
 - [什么是hard negative mining](https://www.cnblogs.com/elitphil/p/12714479.html)
-- [知乎回答]()
+- [Hard Negative Mining](https://zhuanlan.zhihu.com/p/57440670)

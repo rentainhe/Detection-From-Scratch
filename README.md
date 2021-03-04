@@ -6,9 +6,9 @@ learning object detection from scratch
 
 ## Contents
 ### 1. basic theory
-- [Hard Negative Mining]()
+- [Hard Negative Mining](https://github.com/rentainhe/mini-detection/blob/master/notes/theory/Hard-Negative-Mining.md)
 - [Bounding Box Regression]()
-
+- [Non-Maximum Suppression](https://github.com/rentainhe/mini-detection/blob/master/notes/theory/NMS.md)
 
 
 ### 2. classic paper reading
