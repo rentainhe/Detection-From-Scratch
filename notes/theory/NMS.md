@@ -13,7 +13,7 @@ AB重叠的面积占AB并集面积的比例
 code:
 - [IoU.py]()
 
-### 2. NMS
+### 2. Traditional NMS
 NMS用于合并最后的候选框
 
 ![](../../figs/Theory/NMS/NMS_example.png)
@@ -29,9 +29,28 @@ NMS用于合并最后的候选框
 Details:
 - 输入的是所有的候选框, 候选框包括所框定的位置, 以及框定区域所属的类别, NMS可以帮助去重
 
+## NMS Development
+![](../../figs/Theory/NMS/NMS_development_overall.png)
+### 1. 分类优先
+#### a. Traditional NMS (2017)
+- Disadvantage:
+  - 按顺序剔除, 需要逐一计算IoU, 计算效率下降
+  - 剔除机制太严格, 根据NMS阈值暴力剔除, 如果有真实物体在重叠区域出现, 则将被剔除, 导致检测失败, 从而降低算法的平均检测率
+  - 阈值是根据经验选取的, 没有特定标准, 设置过小容易误删, 设置过大的话又容易增大错检
+  - 评判标准仅仅为IoU, 只考虑两个框之间的重叠面积, 这对于描述bounding box之间的关系不够全面
+  - 一般只能用CPU计算, 但是cuda好像开发了NMS core, 所以这个问题也得到了解决
+
+#### b. Soft-NMS (ICCV 2017)
+由于传统NMS算法过于粗暴, 直接删除所有IoU大于阈值的框, 因此soft-NMS吸取了NMS的教训, 在算法执行的过程中不是简单的对IoU大于阈值的检测框删除, 而是降低得分.
+
+算法流程和NMS相同, 对于原置信度得分使用函数运算, 目标是降低得分(传统NMS是直接将置信度得分降为0并剔除), 最后再通过设置阈值(BTW, 这个阈值是手动设置的, 也有提升空间), 将得分较低的检测框去除
+
 Code:
 - [NMS.py](https://github.com/rentainhe/mini-detection/blob/master/core/NMS.py)
 
 ## Reference
 - [NMS算法详解(附Pytorch代码实现)](https://zhuanlan.zhihu.com/p/54709759)
 - [非极大值抑制(Non-Maximum Suppression)](https://www.cnblogs.com/makefile/p/nms.html)
+- [一文打尽目标检测NMS——精度提升篇](https://zhuanlan.zhihu.com/p/151914931)
+- [NMS, soft-nms, softer-nms](https://zhuanlan.zhihu.com/p/89426063)
+- [Soft-NMS](https://zhuanlan.zhihu.com/p/41046620)
