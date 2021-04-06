@@ -10,8 +10,10 @@ learning object detection from scratch
 - [Bounding Box Regression]()
 - [NMS development](https://github.com/rentainhe/mini-detection/blob/master/notes/theory/NMS.md)
 
+### 2. good notes online
+- [一文读懂Faster-RCNN](https://zhuanlan.zhihu.com/p/31426458)
 
-### 2. classic paper reading
+### 3. classic paper reading
 |two-stage|paper|conference|year|notes|
 |:---:|:---:|:---:|:---:|:---:
 | __R-CNN__ |[Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/abs/1311.2524)|...|2014|[notes](https://github.com/rentainhe/mini-detection/blob/master/notes/model/RCNN.md)
