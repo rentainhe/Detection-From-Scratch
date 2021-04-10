@@ -11,10 +11,11 @@ learning object detection from scratch
 - [NMS development](https://github.com/rentainhe/mini-detection/blob/master/notes/theory/NMS.md)
 
 ### 2. good notes online
-- [一文读懂Faster-RCNN](https://zhuanlan.zhihu.com/p/31426458)
+- [Faster RCNN简介与代码注释](https://zhuanlan.zhihu.com/p/69250914), [github](https://github.com/liuyuemaicha/simple_faster_rcnn)
 
 ### 3. classic paper reading
-|two-stage|paper|conference|year|notes|
+#### two-stage
+|model|paper|conference|year|notes|
 |:---:|:---:|:---:|:---:|:---:
 | __R-CNN__ |[Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/abs/1311.2524)|...|2014|[notes](https://github.com/rentainhe/mini-detection/blob/master/notes/model/RCNN.md)
-
+| __Faster RCNN__|[Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/abs/1506.01497)|CVPR|2016|[一文读懂Faster-RCNN](https://zhuanlan.zhihu.com/p/31426458)
