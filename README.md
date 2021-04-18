@@ -22,4 +22,9 @@ learning object detection from scratch
 | __Faster RCNN__|[__Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks__](https://arxiv.org/abs/1506.01497)|CVPR|2016|[__一文读懂Faster-RCNN__](https://zhuanlan.zhihu.com/p/31426458)
 | __FPN__|[__Feature Pyramid Networks for Object Detection__](https://openaccess.thecvf.com/content_cvpr_2017/papers/Lin_Feature_Pyramid_Networks_CVPR_2017_paper.pdf)|CVPR|2017|[__从代码理解FPN__](https://zhuanlan.zhihu.com/p/35854548) <br> [__论文笔记FPN__](https://zhuanlan.zhihu.com/p/92005927) <br> [FPN笔记](https://zhuanlan.zhihu.com/p/78160468)
 
-
+#### End-to-End
+|model|paper|conference|year|notes|
+|:---:|:---:|:---:|:---:|:---:
+| __DETR__ |[__End-to-End Object Detection with Transformers__](https://arxiv.org/abs/2005.12872)|ECCV|2020|[__DETR解读__](https://zhuanlan.zhihu.com/p/267156624)
+| __Deformable DETR__ |[__Deformable DETR: Deformable Transformers for End-to-End Object Detection__](https://arxiv.org/abs/2010.04159)|ICLR Oral|2021| ... |
+| __Efficient DETR__ |[__Efficient DETR: Improving End-to-End Object Detector with Dense Prior__](https://arxiv.org/abs/2104.01318)|arxiv|2021| ... |
