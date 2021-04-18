@@ -6,13 +6,20 @@ learning object detection from scratch
 
 ## Contents
 ### 1. basic theory
-- [Hard Negative Mining](https://github.com/rentainhe/mini-detection/blob/master/notes/theory/Hard-Negative-Mining.md)
-- [Bounding Box Regression]()
-- [NMS development](https://github.com/rentainhe/mini-detection/blob/master/notes/theory/NMS.md)
+- [__Hard Negative Mining__](https://github.com/rentainhe/mini-detection/blob/master/notes/theory/Hard-Negative-Mining.md)
+- [__Bounding Box Regression__]()
+- [__NMS development__](https://github.com/rentainhe/mini-detection/blob/master/notes/theory/NMS.md)
 
 ### 2. good notes online
-- [Faster RCNN简介与代码注释](https://zhuanlan.zhihu.com/p/69250914), [github](https://github.com/liuyuemaicha/simple_faster_rcnn)
-- [（必看）从编程实现角度学习Faster R-CNN（附极简实现）](https://zhuanlan.zhihu.com/p/32404424)
+- [__Faster RCNN简介与代码注释__](https://zhuanlan.zhihu.com/p/69250914), [__github__](https://github.com/liuyuemaicha/simple_faster_rcnn)
+- [__（必看）从编程实现角度学习Faster R-CNN（附极简实现）__](https://zhuanlan.zhihu.com/p/32404424)
+
+### 3. nice repo
+- [__simple-faster-rcnn-pytorch__](https://github.com/chenyuntc/simple-faster-rcnn-pytorch)
+- [__PyTorch-YOLOV3__](https://github.com/eriklindernoren/PyTorch-YOLOv3)
+
+### 4. personal repo
+- [__faster-rcnn-pytorch__](https://github.com/rentainhe/faster-rcnn-pytorch)
 
 ### 3. paper reading
 #### two-stage
